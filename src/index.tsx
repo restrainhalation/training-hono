@@ -1,4 +1,5 @@
 import {
+  ColorMode,
   ColorModeScript,
   ThemeSchemeScript,
   defaultConfig,
@@ -10,7 +11,7 @@ import { renderToString } from "react-dom/server"
 const app = new Hono()
 
 app.get("*", (c) => {
-  const colorMode = getCookie(c, "ui-color-mode")
+  const colorMode = getCookie(c, "ui-color-mode") as "system" | ColorMode | undefined
   const themeScheme = getCookie(c, "ui-theme-scheme")
 
   return c.html(
