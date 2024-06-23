@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "training-hono",
   "type": "module",
   "scripts": {
     "dev": "vite",
