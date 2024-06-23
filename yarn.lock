@@ -3262,24 +3262,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my-app@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "my-app@workspace:."
-  dependencies:
-    "@hono/node-server": "npm:^1.11.4"
-    "@hono/vite-dev-server": "npm:^0.12.2"
-    "@types/node": "npm:^20.11.17"
-    "@types/react": "npm:^18.3.3"
-    "@types/react-dom": "npm:^18.3.0"
-    "@yamada-ui/react": "npm:^1.4.2"
-    hono: "npm:^4.4.7"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    tsx: "npm:^4.7.1"
-    vite: "npm:^5.3.1"
-  languageName: unknown
-  linkType: soft
-
 "nanoid@npm:^3.3.7":
   version: 3.3.7
   resolution: "nanoid@npm:3.3.7"
@@ -3927,6 +3909,24 @@ __metadata:
   checksum: 10c0/f2cf1f2c70f374fd87b0cdc8007453ba9e981c4305a8bf4eac10a30e62ecdfd28bca7d18f8f15b15a506bf8a7bfb20dbe3539f0fcf2a2c8396c1a78d53e1f179
   languageName: node
   linkType: hard
+
+"training-hono@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "training-hono@workspace:."
+  dependencies:
+    "@hono/node-server": "npm:^1.11.4"
+    "@hono/vite-dev-server": "npm:^0.12.2"
+    "@types/node": "npm:^20.11.17"
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@yamada-ui/react": "npm:^1.4.2"
+    hono: "npm:^4.4.7"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    tsx: "npm:^4.7.1"
+    vite: "npm:^5.3.1"
+  languageName: unknown
+  linkType: soft
 
 "tslib@npm:2.4.0":
   version: 2.4.0
