@@ -2904,10 +2904,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.4.7":
-  version: 4.4.7
-  resolution: "hono@npm:4.4.7"
-  checksum: 10c0/df91661deb050a2b57cd811a58e9709a7bb6b85fe9f10ab17a83e8da3a4b58fc044254f90f601af95ad4b6c03c00dd59b5e0f5ccef447cd48e17db85b780123e
+"hono@npm:^4.5.8":
+  version: 4.6.3
+  resolution: "hono@npm:4.6.3"
+  checksum: 10c0/dce88a9d236a87d454808640593053bc9f8e07724f21eba3f8e364bba7a6f85b177a28ab6f0ffcd355bb07f6a3df52a8cee9d5665f084f2aeefb3eec7c28fdfa
   languageName: node
   linkType: hard
 
@@ -3920,7 +3920,7 @@ __metadata:
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@yamada-ui/react": "npm:^1.4.2"
-    hono: "npm:^4.4.7"
+    hono: "npm:^4.5.8"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     tsx: "npm:^4.7.1"
