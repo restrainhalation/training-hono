@@ -493,15 +493,6 @@ __metadata:
   linkType: hard
 
 "@hono/node-server@npm:^1.12.0":
-  version: 1.14.1
-  resolution: "@hono/node-server@npm:1.14.1"
-  peerDependencies:
-    hono: ^4
-  checksum: 250cae60a40dd8697e48d6f604c66ca9b585ee6e80cc3a48525ef0193c2042bb68fbd2f8988f44b3f416c3ebbb8c1084084079f66f3f82e31eb5cbd55f076920
-  languageName: node
-  linkType: hard
-
-"@hono/node-server@npm:^1.19.13":
   version: 1.19.14
   resolution: "@hono/node-server@npm:1.19.14"
   peerDependencies:
@@ -3881,7 +3872,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "training-hono@workspace:."
   dependencies:
-    "@hono/node-server": ^1.19.13
     "@hono/vite-dev-server": ^0.19.0
     "@types/node": ^20.11.17
     "@types/react": ^18.3.3
