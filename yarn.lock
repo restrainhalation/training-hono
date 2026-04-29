@@ -492,7 +492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/node-server@npm:^1.12.0":
+"@hono/node-server@npm:^1.12.0, @hono/node-server@npm:^1.19.13":
   version: 1.19.14
   resolution: "@hono/node-server@npm:1.19.14"
   peerDependencies:
@@ -2873,10 +2873,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hono@npm:^4.12.12":
-  version: 4.12.12
-  resolution: "hono@npm:4.12.12"
-  checksum: 1f8fda5adc9de6c604ab6a29ed5817ab969cb10a8548afe5dfbf38ff3b642721a362c64038a5ba3fe5d6f4810eef91d6d008901dbc6d4dec4717f860839d0876
+"hono@npm:^4.12.14":
+  version: 4.12.15
+  resolution: "hono@npm:4.12.15"
+  checksum: a1d1c809d3bfad17119be8554926e613e03cbcc49f6a0163011563cda435aa971a3533e34d8c55fc8e7e24896642b2fd2afb0bc937f3205ebdc243a52e2d689e
   languageName: node
   linkType: hard
 
@@ -3872,12 +3872,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "training-hono@workspace:."
   dependencies:
+    "@hono/node-server": ^1.19.13
     "@hono/vite-dev-server": ^0.19.0
     "@types/node": ^20.11.17
     "@types/react": ^18.3.3
     "@types/react-dom": ^18.3.0
     "@yamada-ui/react": ^1.4.2
-    hono: ^4.12.12
+    hono: ^4.12.14
     react: ^18.3.1
     react-dom: ^18.3.1
     tsx: ^4.19.3
